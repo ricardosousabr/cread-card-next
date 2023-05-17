@@ -1,5 +1,20 @@
 import styled from 'styled-components'
 
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+`
+
+export const BoxTitle = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
 export const Title = styled.h1`
-  color: red;
+  font-size: 20px;
+  color: #ffffff;
 `
