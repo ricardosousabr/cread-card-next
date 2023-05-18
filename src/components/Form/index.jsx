@@ -1,3 +1,4 @@
+import Button from '../Button'
 import {
   ContainerForm,
   InputLarge,
@@ -31,7 +32,7 @@ export default function Form() {
             </div>
           </BoxInputSmall>
           <BoxButton>
-            <button>Adicionar</button>
+            <Button>Adicionar</Button>
           </BoxButton>
         </ContainerForm>
       </div>
