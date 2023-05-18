@@ -2,7 +2,7 @@
 
 exports[`HomePage snapshot 1`] = `
 <div
-  className="styles__Container-sc-1la1y2-0 gfSovw"
+  className="styles__Container-sc-1la1y2-0 eqjRKs"
 >
   <div
     className="styles__BoxTitle-sc-1la1y2-1 eBIxUJ"
@@ -28,6 +28,72 @@ exports[`HomePage snapshot 1`] = `
           fill="#7d7676"
         />
       </svg>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div>
+        <form
+          action=""
+          className="styles__ContainerForm-sc-wedmof-0 dPZUAw"
+        >
+          <div>
+            <p
+              className="styles__Text-sc-wedmof-4 iCLgfV"
+            >
+              Número do cartão
+            </p>
+            <input
+              className="styles__InputLarge-sc-wedmof-1 gGEqVy"
+              type="number"
+            />
+          </div>
+          <div>
+            <p
+              className="styles__Text-sc-wedmof-4 iCLgfV"
+            >
+              Nome do titular
+            </p>
+            <input
+              className="styles__InputLarge-sc-wedmof-1 gGEqVy"
+              type="number"
+            />
+          </div>
+          <div
+            className="styles__BoxInputSmall-sc-wedmof-2 lnSgfT"
+          >
+            <div>
+              <p
+                className="styles__Text-sc-wedmof-4 iCLgfV"
+              >
+                Expiração
+              </p>
+              <input
+                className="styles__InputSmall-sc-wedmof-3 kJOAep"
+                type="number"
+              />
+            </div>
+            <div>
+              <p
+                className="styles__Text-sc-wedmof-4 iCLgfV"
+              >
+                CVC
+              </p>
+              <input
+                className="styles__InputSmall-sc-wedmof-3 kJOAep"
+                type="number"
+              />
+            </div>
+          </div>
+          <div
+            className="styles__BoxButton-sc-wedmof-5 jprGjP"
+          >
+            <button>
+              Add card
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>

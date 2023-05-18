@@ -1,4 +1,5 @@
 import { Container, Title, BoxTitle } from './styles'
+import Form from '../Form'
 
 export default function AddCard() {
   return (
@@ -23,6 +24,9 @@ export default function AddCard() {
           </svg>
         </div>
       </BoxTitle>
+      <div>
+        <Form />
+      </div>
     </Container>
   )
 }
