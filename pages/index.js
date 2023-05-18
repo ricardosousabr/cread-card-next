@@ -1,7 +1,9 @@
+import AddCard from '../src/components/AddCard'
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello word</h1>
+      <AddCard />
     </div>
   )
 }
