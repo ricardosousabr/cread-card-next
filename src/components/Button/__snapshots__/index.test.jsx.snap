@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage snapshot 1`] = `
+<button
+  className="styles__ButtonAddCard-sc-11nj3cj-0 eZHHSY"
+/>
+`;

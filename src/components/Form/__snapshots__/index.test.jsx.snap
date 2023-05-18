@@ -58,7 +58,9 @@ exports[`HomePage snapshot 1`] = `
       <div
         className="styles__BoxButton-sc-wedmof-5 jprGjP"
       >
-        <button>
+        <button
+          className="styles__ButtonAddCard-sc-11nj3cj-0 eZHHSY"
+        >
           Adicionar
         </button>
       </div>
