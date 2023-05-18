@@ -89,7 +89,7 @@ exports[`HomePage snapshot 1`] = `
             className="styles__BoxButton-sc-wedmof-5 jprGjP"
           >
             <button>
-              Add card
+              Adicionar
             </button>
           </div>
         </form>

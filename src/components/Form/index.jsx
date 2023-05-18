@@ -31,7 +31,7 @@ export default function Form() {
             </div>
           </BoxInputSmall>
           <BoxButton>
-            <button>Add card</button>
+            <button>Adicionar</button>
           </BoxButton>
         </ContainerForm>
       </div>
