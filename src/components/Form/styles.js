@@ -13,18 +13,21 @@ export const InputLarge = styled.input`
   background: black;
   border: none;
   border-radius: 5px;
+  color: white;
 `
 
 export const BoxInputSmall = styled.div`
   display: flex;
   justify-content: space-between;
 `
+
 export const InputSmall = styled.input`
   width: 90px;
   height: 40px;
   background: black;
   border: none;
   border-radius: 5px;
+  color: white;
 `
 
 export const Text = styled.p`
@@ -32,6 +35,7 @@ export const Text = styled.p`
   font-size: 14px;
   padding: 5px;
 `
+
 export const BoxButton = styled.div`
   margin-top: 10px;
 `
