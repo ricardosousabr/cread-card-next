@@ -33,6 +33,31 @@ exports[`HomePage snapshot 1`] = `
   <div>
     <div>
       <div>
+        <div>
+          <div>
+            <p />
+          </div>
+          <div>
+            <p>
+              Nome do titular
+            </p>
+            <p />
+          </div>
+          <div>
+            <p>
+              Expiração
+            </p>
+            <p />
+          </div>
+          <div>
+            <p>
+              CVC
+            </p>
+            <p />
+          </div>
+        </div>
+      </div>
+      <div>
         <form
           action=""
           className="styles__ContainerForm-sc-wedmof-0 dPZUAw"
@@ -44,7 +69,8 @@ exports[`HomePage snapshot 1`] = `
               Número do cartão
             </p>
             <input
-              className="styles__InputLarge-sc-wedmof-1 gGEqVy"
+              className="styles__InputLarge-sc-wedmof-1 cpyqzR"
+              onChange={[Function]}
               type="number"
             />
           </div>
@@ -55,8 +81,9 @@ exports[`HomePage snapshot 1`] = `
               Nome do titular
             </p>
             <input
-              className="styles__InputLarge-sc-wedmof-1 gGEqVy"
-              type="number"
+              className="styles__InputLarge-sc-wedmof-1 cpyqzR"
+              onChange={[Function]}
+              type="text"
             />
           </div>
           <div
@@ -69,7 +96,8 @@ exports[`HomePage snapshot 1`] = `
                 Expiração
               </p>
               <input
-                className="styles__InputSmall-sc-wedmof-3 kJOAep"
+                className="styles__InputSmall-sc-wedmof-3 SFUAC"
+                onChange={[Function]}
                 type="number"
               />
             </div>
@@ -80,7 +108,8 @@ exports[`HomePage snapshot 1`] = `
                 CVC
               </p>
               <input
-                className="styles__InputSmall-sc-wedmof-3 kJOAep"
+                className="styles__InputSmall-sc-wedmof-3 SFUAC"
+                onChange={[Function]}
                 type="number"
               />
             </div>
