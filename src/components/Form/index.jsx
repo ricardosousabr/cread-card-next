@@ -16,6 +16,7 @@ export default function Form() {
   const [expirationCard, SetExpirationCard] = useState('')
   const [numberCvc, SetNumberCvc] = useState('')
   const data = [numberCArd, cardholderName, expirationCard, numberCvc]
+
   return (
     <div>
       <div>
@@ -45,7 +46,7 @@ export default function Form() {
             <div>
               <Text>Expiração</Text>
               <InputSmall
-                type="number"
+                type="date"
                 onChange={(e) => {
                   SetExpirationCard(e.target.value)
                 }}

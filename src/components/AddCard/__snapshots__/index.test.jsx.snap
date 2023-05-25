@@ -114,7 +114,7 @@ exports[`HomePage snapshot 1`] = `
               <input
                 className="styles__InputSmall-sc-wedmof-3 SFUAC"
                 onChange={[Function]}
-                type="number"
+                type="date"
               />
             </div>
             <div>
