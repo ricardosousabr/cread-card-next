@@ -1,25 +1,30 @@
-import { ContanerCard, Text } from './styles'
+import {
+  ContanerCard,
+  TitleDate,
+  NumberCard,
+  CardholderName,
+  CardExpiration,
+  CardCvc,
+} from './styles'
 
 export default function Card({ data }) {
   return (
-    <div>
-      <ContanerCard>
-        <div>
-          <text>{data[0]}</text>
-        </div>
-        <div>
-          <Text>Nome do titular</Text>
-          <Text>{data[1]}</Text>
-        </div>
-        <div>
-          <Text>Expiração</Text>
-          <Text>{data[2]}</Text>
-        </div>
-        <div>
-          <Text>CVC</Text>
-          <Text>{data[3]}</Text>
-        </div>
-      </ContanerCard>
-    </div>
+    <ContanerCard>
+      <div>
+        <NumberCard>{data[0]}</NumberCard>
+      </div>
+      <div>
+        <TitleDate>Nome do titular</TitleDate>
+        <CardholderName>{data[1]}</CardholderName>
+      </div>
+      <div>
+        <TitleDate>Expiração</TitleDate>
+        <CardExpiration>{data[2]}</CardExpiration>
+      </div>
+      <div>
+        <TitleDate>CVC</TitleDate>
+        <CardCvc>{data[3]}</CardCvc>
+      </div>
+    </ContanerCard>
   )
 }

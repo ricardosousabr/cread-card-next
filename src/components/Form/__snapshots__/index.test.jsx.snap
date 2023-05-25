@@ -3,27 +3,43 @@
 exports[`HomePage snapshot 1`] = `
 <div>
   <div>
-    <div>
+    <div
+      className="styles__ContanerCard-sc-4f1d5k-0 hZqvfl"
+    >
       <div>
-        <p />
+        <p
+          className="styles__NumberCard-sc-4f1d5k-1 kgiWKl"
+        />
       </div>
       <div>
-        <p>
+        <div
+          className="styles__TitleDate-sc-4f1d5k-5 eaODtn"
+        >
           Nome do titular
-        </p>
-        <p />
+        </div>
+        <p
+          className="styles__CardholderName-sc-4f1d5k-2 dVFrPG"
+        />
       </div>
       <div>
-        <p>
+        <div
+          className="styles__TitleDate-sc-4f1d5k-5 eaODtn"
+        >
           Expiração
-        </p>
-        <p />
+        </div>
+        <p
+          className="styles__CardExpiration-sc-4f1d5k-3 jUASOX"
+        />
       </div>
       <div>
-        <p>
+        <div
+          className="styles__TitleDate-sc-4f1d5k-5 eaODtn"
+        >
           CVC
-        </p>
-        <p />
+        </div>
+        <p
+          className="styles__CardCvc-sc-4f1d5k-4 hTCMql"
+        />
       </div>
     </div>
   </div>
